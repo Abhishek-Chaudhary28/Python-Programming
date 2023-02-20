@@ -1,0 +1,8 @@
+import datetime
+name = input("What is Your Name ? ")
+age = input("What is your age ? ")
+age=int(age)
+currentyear=datetime.datetime.now().year
+years100=100-age
+Youwillbe100 = currentyear+years100
+print("You will be 100 in ",Youwillbe100)
